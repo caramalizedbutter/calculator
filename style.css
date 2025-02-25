@@ -1,0 +1,107 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+#screen,button{
+    font-family: 'Rubik', sans-serif;
+    font-size:x-large;
+    font-weight:bolder;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+button.num{
+    background-color:#335de8;
+    color:white;
+}
+
+button.reset{
+    background-color:#e6401e;
+    color:white;
+}
+
+button.equals{
+    background-color:#37bf3e;
+    color:white;
+}
+
+#sheet{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    margin-top:150px;
+}
+
+#screen{
+    width:230px;
+    background-color:azure;
+    border:none;
+    border-radius:10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+#mainContainer{
+    display:flex;
+    max-width: 350px;
+    width:95%;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: black;
+    border-radius: 20px;
+    height: 400px;
+    min-width:18.2vw;
+    min-height:37vw;
+}
+
+#screenReset{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    width:93%;
+    max-width:430px;
+    height:70px;
+    margin-top:15px;
+}
+
+#screenReset button{
+    width:80px;
+    height:100%;
+    border-radius:20px;
+    border:none;
+}
+
+#numOp{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    height:270px;
+    width:93%;
+    margin-bottom:-3px;
+}
+
+#numOp div{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+#numOp button{
+    width:70px;
+    height:50px;
+    border-radius:20px;
+    border:none;
+}
