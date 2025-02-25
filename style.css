@@ -60,7 +60,8 @@ button.equals{
     align-items:center;
     background-color: black;
     border-radius: 20px;
-    height: 400px;
+    height: auto;
+    max-height:400px;
 }
 
 #screenReset{
