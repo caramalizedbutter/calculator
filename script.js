@@ -23,7 +23,7 @@ document.querySelectorAll("button").forEach(button => {
             num2+=ev;
         }
         else if(ev.includes("Reset")){
-            document.querySelector("#screen").textContent="";
+            document.querySelector("#screenText").textContent="";
             num1="";
             operator="";
             num2="";
@@ -38,7 +38,7 @@ document.querySelectorAll("button").forEach(button => {
         else if(opArr.includes(ev) && num1 != "" && operator != "" && num2 == ""){
             ev="";
         }
-        document.querySelector("#screen").textContent=num1+operator+num2;
+        document.querySelector("#screenText").textContent=num1+operator+num2;
     });
 });
 

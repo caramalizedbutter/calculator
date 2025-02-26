@@ -43,15 +43,20 @@ button.equals{
     background-color: azure;
     border: none;
     border-radius: 10px;
-    display: flex;
+    display: block;
     padding: 10px;
     font-size: 2.5rem;
     font-weight: bold;
     overflow: hidden;
     white-space: nowrap;
     text-align: right;
-    direction: rtl;
+    direction:rtl;
+    text-overflow:ellipsis;
+}
+
+#screenText{
     unicode-bidi:plaintext;
+    direction:rtl;
 }
 
 #mainContainer{
