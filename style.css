@@ -38,17 +38,20 @@ button.equals{
 }
 
 #screen{
-    width:230px;
-    background-color:azure;
-    border:none;
-    border-radius:10px;
+    max-width:230px;
+    width:100%;
+    background-color: azure;
+    border: none;
+    border-radius: 10px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 10px;
-    font-size: 2rem;
+    padding: 10px;
+    font-size: 2.5rem;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
     text-align: right;
+    direction: rtl;
+    unicode-bidi:plaintext;
 }
 
 #mainContainer{
